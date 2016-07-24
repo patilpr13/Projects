@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">My News</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="home_action">Settings</string>
+    <string name="preparing_news">Preparing news, Please wait...</string>
+    <string name="no_internet_connection">Check your internet connection!</string>
+    <string name="nothing_available">Oops! problem with data connection!</string>
+    <string name="url">http://newspics.in/</string>
+    <string name="loading_page">file:///android_asset/load.html</string>
+    <string name="ic_test_url">google.com</string>
+    <string name="text_folder">text</string>
+    <string name="image_folder">images</string>
+    <string name="video_folder">video</string>
+    <string name="wait_message">Please wait ...</string>
+    <string name="loading_image">Loading card please wait...</string>
+    <string name="crash_toast_text">Help us fix the crash!!</string>
+    <string name="notification_title">News time!!!</string>
+    <string name="notification_content">Checkout the latest news...</string>
+    <string name="title"> माय न्यूज </string>
+    <string name="sub_title"> कोल्हापूर-निपाणी-बेळगांव </string>
+    <string name="cat1"> मनोरंजन </string>
+    <string name="cat2"> आरोग्य </string>
+    <string name="cat3"> राजकारण </string>
+    <string name="cat4"> अर्थकारण </string>
+    <string name="cat5"> खेळजगत </string>
+    <string name="cat6"> तंत्रज्ञान </string>
+    <string name="termsOfUse">Terms Of Use</string>
+    <string name="aboutUs">About Us</string>
+    <string name="rateUs">Liked it? then rate us</string>
+</resources>

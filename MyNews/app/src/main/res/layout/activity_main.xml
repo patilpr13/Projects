@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/nav_content_top_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout">
+
+            <LinearLayout
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="@string/cat1"
+                    android:background="@drawable/button_bg1"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="@string/cat2"
+                    android:background="@drawable/button_bg2"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="@string/cat3"
+                    android:background="@drawable/button_bg3"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="@string/cat4"
+                    android:background="@drawable/button_bg4"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="@string/cat5"
+                    android:background="@drawable/button_bg5"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="@string/cat6"
+                    android:background="@drawable/button_bg6"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/colorDeepOrange"
+            android:text="@string/termsOfUse"
+            android:onClick="termsOfUse"
+            android:id="@+id/termsOfUse"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/colorDeepOrange"
+            android:text="@string/aboutUs"
+            android:id="@+id/aboutUs" />
+    </LinearLayout>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rateUs"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/ratingBar"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorDeepOrange"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+
+    </RelativeLayout>
+    </android.support.design.widget.NavigationView>
+    </android.support.v4.widget.DrawerLayout>
